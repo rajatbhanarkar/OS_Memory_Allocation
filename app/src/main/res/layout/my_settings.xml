@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical" android:background="@drawable/rounded_corners"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Settings"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#2196f3"/>
+
+        <EditText
+            android:id="@+id/etsdatasize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Data Size"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:inputType="number"
+            android:textColor="#000000"
+            android:background="@drawable/rounded_corners"/>
+
+        <EditText
+            android:id="@+id/etsbinno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:hint="Enter Number of Bins"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:background="@drawable/rounded_corners"/>
+
+        <EditText
+            android:id="@+id/etscapacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:hint="Enter Bin Capacity"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:background="@drawable/rounded_corners"/>
+
+        <Button
+            android:id="@+id/btnapply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Apply"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#ff9800"/>
+    </LinearLayout>
+</RelativeLayout>
