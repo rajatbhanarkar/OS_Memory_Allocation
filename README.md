@@ -1,4 +1,4 @@
-# OS_Memory_Allocation
+# OS Memory Allocation
 Android app to demonstrate First fit and Best fit OS Memory Allocation Algorithms
 
 APK Link: https://i.diawi.com/rtvZA6
